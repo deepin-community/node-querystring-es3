@@ -1,0 +1,33 @@
+node-querystring-es3 (0.2.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Use secure URI in debian/watch.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-querystring-es3: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Use dh-sequence-nodejs auto test & install
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 04 Jan 2021 05:38:25 +0100
+
+node-querystring-es3 (0.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #865457)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 21 Jun 2017 22:33:34 +0530
